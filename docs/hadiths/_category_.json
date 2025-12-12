@@ -1,0 +1,9 @@
+{
+  "label": "Hadiths",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Authentic narrations from the Prophet Muhammad ﷺ from Sahih Bukhari, Sahih Muslim, and other reliable collections."
+  }
+}
+

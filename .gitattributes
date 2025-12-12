@@ -1,0 +1,40 @@
+# Git attributes for Deen Over Duniya
+
+# Ensure shell scripts use LF line endings (important for deployment scripts)
+*.sh text eol=lf
+
+# Ensure consistent line endings
+* text=auto
+
+# Markdown files
+*.md text
+
+# JavaScript files
+*.js text
+*.jsx text
+
+# CSS files
+*.css text
+
+# JSON files
+*.json text
+
+# YAML files
+*.yml text
+*.yaml text
+
+# Images (binary)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg binary
+*.ico binary
+
+# Fonts (binary)
+*.woff binary
+*.woff2 binary
+*.eot binary
+*.ttf binary
+*.otf binary
+

@@ -1,0 +1,434 @@
+.heroBanner {
+  padding: 6rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+}
+
+.bismillah {
+  font-family: 'Amiri', serif;
+  font-size: 3rem;
+  color: var(--ifm-color-primary-darkest);
+  margin-bottom: 2rem;
+  font-weight: 700;
+  text-shadow: 0 2px 10px rgba(46, 125, 50, 0.1);
+  animation: fadeInDown 0.8s ease-out;
+}
+
+[data-theme='dark'] .bismillah {
+  color: #FFFFFF;
+  text-shadow: 0 2px 10px rgba(102, 187, 106, 0.3);
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2.5rem;
+  animation: fadeInUp 0.8s ease-out 0.3s both;
+}
+
+.features {
+  padding: 5rem 0;
+  background: var(--ifm-background-surface-color);
+}
+
+.ctaSection {
+  padding: 5rem 0;
+  background: linear-gradient(135deg, #E8F5E9 0%, #C8E6C9 50%, #A5D6A7 100%);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+[data-theme='dark'] .ctaSection {
+  background: linear-gradient(135deg, #1B5E20 0%, #2E7D32 50%, #388E3C 100%);
+}
+
+.ctaTitle {
+  color: var(--ifm-color-primary-darkest);
+  margin-bottom: 1.25rem;
+  font-size: 2.75rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+[data-theme='dark'] .ctaTitle {
+  color: #FFFFFF;
+}
+
+.ctaDescription {
+  font-size: 1.25rem;
+  color: var(--ifm-color-primary-dark);
+  margin-bottom: 2.5rem;
+  max-width: 650px;
+  margin: 0 auto 2.5rem;
+  line-height: 1.7;
+  font-weight: 500;
+}
+
+[data-theme='dark'] .ctaDescription {
+  color: #C8E6C9;
+}
+
+.ctaButtons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.quickLinksSection {
+  padding: 4rem 0;
+}
+
+.quickLinksTitle {
+  text-align: center;
+  color: var(--ifm-color-primary);
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+[data-theme='dark'] .quickLinksTitle {
+  color: var(--ifm-color-primary-lighter);
+}
+
+.featureGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2.5rem;
+  margin-top: 3rem;
+}
+
+.featureCard {
+  position: relative;
+  overflow: hidden;
+}
+
+.featureCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--ifm-color-primary) 0%, var(--ifm-color-primary-lighter) 100%);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.featureCard:hover::before {
+  transform: scaleX(1);
+}
+
+.sectionTitle {
+  text-align: center;
+  color: var(--ifm-color-primary);
+  margin-bottom: 1rem;
+  font-size: 2.75rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+[data-theme='dark'] .sectionTitle {
+  color: var(--ifm-color-primary-lighter);
+}
+
+.sectionSubtitle {
+  text-align: center;
+  color: var(--ifm-font-color-secondary);
+  font-size: 1.25rem;
+  max-width: 600px;
+  margin: 0 auto 3rem;
+  line-height: 1.6;
+}
+
+[data-theme='dark'] .sectionSubtitle {
+  color: var(--ifm-font-color-secondary);
+}
+
+.categoryIcon {
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.featureCard:hover .categoryIcon {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.categoryTitle {
+  color: var(--ifm-color-primary);
+  margin-bottom: 0.75rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+[data-theme='dark'] .categoryTitle {
+  color: var(--ifm-color-primary-lighter);
+}
+
+.categoryDescription {
+  color: var(--ifm-font-color-secondary);
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+/* Animations */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ============================================
+   RESPONSIVE DESIGN FOR HOMEPAGE
+   ============================================ */
+
+/* Tablets and small desktops */
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 3.5rem 1.5rem;
+    min-height: 450px;
+  }
+
+  .bismillah {
+    font-size: 2.25rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .sectionTitle {
+    font-size: 2.25rem;
+  }
+
+  .sectionSubtitle {
+    font-size: 1.125rem;
+    padding: 0 1rem;
+  }
+
+  .featureGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+  
+  .features {
+    padding: 4rem 0;
+  }
+  
+  .quickLinksSection {
+    padding: 3rem 0;
+  }
+  
+  .ctaSection {
+    padding: 4rem 0;
+  }
+}
+
+/* Mobile devices */
+@media screen and (max-width: 768px) {
+  .heroBanner {
+    padding: 3rem 1rem;
+    min-height: auto;
+  }
+
+  .bismillah {
+    font-size: 1.75rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .sectionTitle {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .sectionSubtitle {
+    font-size: 1.05rem;
+    padding: 0 0.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .buttons {
+    flex-direction: column;
+    width: 100%;
+    gap: 0.75rem;
+  }
+
+  .buttons .button {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 !important;
+  }
+  
+  .featureGrid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .features {
+    padding: 3rem 0;
+  }
+  
+  .quickLinksSection {
+    padding: 2.5rem 0;
+  }
+  
+  .ctaSection {
+    padding: 3rem 0;
+  }
+  
+  .ctaTitle {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .ctaDescription {
+    font-size: 1.1rem;
+    padding: 0 0.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .ctaButtons {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  
+  .ctaButtons .button {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .categoryIcon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .categoryTitle {
+    font-size: 1.35rem;
+  }
+  
+  .categoryDescription {
+    font-size: 0.95rem;
+  }
+}
+
+/* Small mobile devices */
+@media screen and (max-width: 480px) {
+  .heroBanner {
+    padding: 2.5rem 0.75rem;
+  }
+
+  .bismillah {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .sectionTitle {
+    font-size: 1.75rem;
+  }
+  
+  .sectionSubtitle {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .quickLinksTitle {
+    font-size: 1.75rem;
+  }
+  
+  .ctaTitle {
+    font-size: 1.75rem;
+  }
+  
+  .ctaDescription {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .categoryIcon {
+    font-size: 2.5rem;
+  }
+  
+  .categoryTitle {
+    font-size: 1.25rem;
+  }
+  
+  .categoryDescription {
+    font-size: 0.9rem;
+  }
+  
+  .features {
+    padding: 2.5rem 0;
+  }
+  
+  .quickLinksSection {
+    padding: 2rem 0;
+  }
+  
+  .ctaSection {
+    padding: 2.5rem 0;
+  }
+}
+
+/* Extra small devices */
+@media screen and (max-width: 360px) {
+  .heroBanner {
+    padding: 2rem 0.5rem;
+  }
+
+  .bismillah {
+    font-size: 1.35rem;
+  }
+
+  .sectionTitle {
+    font-size: 1.5rem;
+  }
+  
+  .sectionSubtitle {
+    font-size: 0.95rem;
+  }
+  
+  .ctaTitle {
+    font-size: 1.5rem;
+  }
+  
+  .ctaDescription {
+    font-size: 0.95rem;
+  }
+  
+  .categoryIcon {
+    font-size: 2.25rem;
+  }
+  
+  .categoryTitle {
+    font-size: 1.15rem;
+  }
+  
+  .categoryDescription {
+    font-size: 0.85rem;
+  }
+}
