@@ -49,7 +49,7 @@ An open-source Islamic knowledge platform featuring authentic Hadiths, inspiring
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/deen-over-duniya.git
+git clone https://github.com/iamsfkhan/deen-over-duniya.git
 cd deen-over-duniya
 
 # Install dependencies
@@ -271,7 +271,7 @@ We welcome contributions from everyone! Whether you're adding content, fixing bu
 ### Getting Started
 
 1. Read our [Contributing Guide](docs/contributing.md)
-2. Check [open issues](https://github.com/yourusername/deen-over-duniya/issues)
+2. Check [open issues](https://github.com/iamsfkhan/deen-over-duniya/issues)
 3. Fork the repo and make your changes
 4. Submit a pull request
 
