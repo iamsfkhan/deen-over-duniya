@@ -12,7 +12,7 @@
 
 An open-source Islamic knowledge platform featuring authentic Hadiths, inspiring stories of the Sahaba, essential Sunnats, and beautiful Duas to help young Muslims strengthen their faith.
 
-[**View Live Site**](#) • [**Contribute**](docs/contributing.md) • [**Report Issue**](https://github.com/yourusername/deen-over-duniya/issues)
+[**View Live Site**](#) • [**Contribute**](docs/contributing.md) • [**Report Issue**](https://github.com/iamsfkhan/deen-over-duniya/issues)
 
 </div>
 
@@ -303,7 +303,7 @@ This project is built with the contributions of many brothers and sisters. May A
 
 ### Contributors
 
-See our [Contributors](https://github.com/yourusername/deen-over-duniya/graphs/contributors) page.
+See our [Contributors](https://github.com/iamsfkhan/deen-over-duniya/graphs/contributors) page.
 
 ---
 
@@ -337,8 +337,8 @@ All Islamic content (Hadiths, Duas, etc.) is from authentic Islamic sources and 
 
 ## 📞 Contact & Support
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/deen-over-duniya/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/deen-over-duniya/discussions)
+- **Issues**: [GitHub Issues](https://github.com/iamsfkhan/deen-over-duniya/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/iamsfkhan/deen-over-duniya/discussions)
 
 ---
 

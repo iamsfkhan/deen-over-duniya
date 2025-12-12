@@ -77,7 +77,7 @@ There are many ways to contribute:
 
 ```bash
 # Clone your fork
-git clone https://github.com/YOUR_USERNAME/deen-over-duniya.git
+git clone https://github.com/iamsfkhan/deen-over-duniya.git
 cd deen-over-duniya
 ```
 

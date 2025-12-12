@@ -34,7 +34,7 @@ const config = {
           sidebarPath: "./sidebars.js",
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
-          editUrl: "https://github.com/yourusername/deen-over-duniya/tree/main/",
+          editUrl: "https://github.com/iamsfkhan/deen-over-duniya",
         },
         blog: false, // Disabled blog for now
         theme: {
@@ -102,7 +102,7 @@ const config = {
           position: "right",
         },
         {
-          href: "https://github.com/yourusername/deen-over-duniya",
+          href: "https://github.com/iamsfkhan/deen-over-duniya",
           label: "GitHub",
           position: "right",
         },
@@ -155,7 +155,7 @@ const config = {
             },
             {
               label: "GitHub",
-              href: "https://github.com/yourusername/deen-over-duniya",
+              href: "https://github.com/iamsfkhan/deen-over-duniya",
             },
           ],
         },
